@@ -5,14 +5,39 @@ A collection of the large scale projects I have completed while attending Ball S
 ## Get Together Mobile Application
 **Description:**
 
-It's been a little over a year since I've touched this application, so some of the imports are now outdated, causing some problems in the functionality of it. However, it served to be a social messaging app for college students, primarily in computer science. It is hosted through Firebase for the data storage and retrieval. The app features a sign-in page, a customizable profile, a friends list (with your own friend code so you can add people), a home page that displays your most recent messages, and a messaging page where you can send messages to your friends and have it update live. This app was constructed in Android Studio (version information in the zip file README), and uses a combination of Java and Kotlin. This project took place over about half a semester and spanned over three iterations. We also spent time making sure the appearance looks good on the majority of devices offered at the time. As I said, it no longer works entirely as intended, but we did receive an A for the overall grade of the project.
+This project was developed over the course of 3 iterations. It was devloped with the idea that it could be a successful social app for students in the Computer Science curriculum at Ball State. The project features a combination of Java and Kotlin, and employs Firebase for the data storage. At the end of development, we recieved an A for this project, with compliments from our professor for branching out of our comfort zone and learning Kotlin from scratch.
 
-<img src="https://github.com/DennisRBeaver/CollegeProjects/assets/112116511/2602cff7-71c0-4a89-ad74-c82bcbb0709c" alt="Screenshot (16)" width="200"/>
+### Sign-In Page
+![Screenshot (18)](https://github.com/DennisRBeaver/CollegeProjects/assets/112116511/be927fab-161a-4bc8-a4a0-01271cb22d6d)
+
+On this page, the user will either create or sign into an account. Upon account creation, they would recieve an automated message asking them to verify their email. If the email address has been verified, the user will be redirected to the home page.
+
+### Home Page
+
+![Screenshot (31)](https://github.com/DennisRBeaver/CollegeProjects/assets/112116511/1175ea0a-d249-42f1-9509-c332733dc8a0)
+
+This page retrieves and displays an updated list of your friends, as well as a search bar to navigate to the pages of other users. The page would display in a similar fashion to the profile page below.
+
+### Profile Page
+
+![Screenshot (29)](https://github.com/DennisRBeaver/CollegeProjects/assets/112116511/9f919bfd-1c39-4a92-9ca6-cba03678d313)
+
+This page displays all of your profile information, as well as cutomization boxes that allow you to change them at any time. On this page, you also have access to your friend code. Given the time contraints of this project we figured this would be the optimal way of adding users.
+
+### SMS Page
+
+![Screenshot (33)](https://github.com/DennisRBeaver/CollegeProjects/assets/112116511/573d3500-b99b-420b-a3ac-fdfaa58f53a3)
+
+This page displays the list of your most recent messages, which upon click will navigate you into your chat with the selected user.
+
+![Screenshot (34)](https://github.com/DennisRBeaver/CollegeProjects/assets/112116511/737d6a6b-cb2b-469c-b161-9e94509f661b)
+
+This is the live chat, where any changes from either party will update on both screens, allowing for real-time messaging.
 
 ## Free My Financials
 **Description:**
 
-This project was a year-long, client-guided software development. Working as a team, we had to meet with our client a couple of times a month to discuss their wants and needs for the software we were developing. The project spanned over 5 iterations, each one introducing a new set of presentable features. At the end of the last iteration, the client informed us that he was very pleased with the result, saying that it was exactly what he was looking for.
+This project was a year-long, client-guided software development. Working as a team, we had to meet with our client a couple of times a month to discuss their wants and needs for the software we were developing. The project languages are split between TypeScript and Vue, with a little Nix in the mix. The project spanned over 5 iterations, each one introducing a new set of presentable features. At the end of the last iteration, the client informed us that he was very pleased with the result, saying that it was exactly what he was looking for. OUr final grade for this project was also an A.
 
 **Features:**
 
